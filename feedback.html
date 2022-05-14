@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title><h1>Feedback</h1></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  </head>
+
+  <body>
+
+    <form class="" action="index.html" method="post">
+
+
+    <style media="screen">
+body{
+  background-color:rgb(169, 247, 210);
+  font-family: 'Macondo', cursive;
+
+}
+.container{
+
+
+  border: 5px solid black;
+  padding-left: 45px;
+  margin:auto;
+}
+h1{
+  padding-left: 35px;
+  border: 10px solid rgb(113, 10, 10);
+  width:190px;
+  border-radius: 30px;
+  border-style: double;
+  margin-left: 65px
+}
+.name{
+  font-family: 'Macondo', cursive;
+
+  background:rgb(245, 186, 176);
+  shape-outside: circle(30);
+}
+.sat{
+ background-color: blue
+}
+.content{
+  border:10px solid grey;
+  width: 350px;
+  padding-left: 30px;
+
+}
+.one{
+  border-radius: 3px 80px
+}
+
+
+</style>
+
+<div class="container">
+  <img class="one" src="https://image.shutterstock.com/image-vector/feedback-concept-illustration-idea-reviews-260nw-1470642089.jpg" alt="">
+    <h1>Feedback</h1>
+
+    <form class="" action="feedback.php" method="post">
+
+<div class="content">
+
+
+<br>
+<label for="Name">Name : </label>
+    <div >
+      <input class="name" type="text" name="MyName" id="Name" value="">
+    </div>
+    <br>
+    <label for="Age">Age : </label>
+        <div>
+          <input class="name" type="number" name="Myage" id="Age" value="">
+        </div>
+        <br>
+
+        <label for="email">Email :  </label>
+            <div>
+              <input class="name" type="email" name="Mymail" id="email" value="">
+            </div>
+
+                <br>
+
+                <label for="Date">Date : </label>
+                    <div>
+                      <input class="name" type="date" name="date" id="Date" value="">
+                    </div>
+                    <br>
+
+                    <label for="eligiblity"> want to write a review :</label>
+                        <div>
+                           <input class="name" type="checkbox" name="eligiblity" id="eligiblity" value="" checked >
+                        </div>
+                        <br>
+
+                    <label for="gender">gender : </label>
+                        <div>
+                        male :  <input type="radio" name="date" id="gender" value="">
+                      Female :  <input type="radio" name="date" id="gender" value="1">
+                      <br>
+                      other :  <input type="radio" name="date" id="gender" value="">
+                        </div>
+                        <br>
+
+
+                        <label for="review">review : </label>
+                            <div>
+                         <textarea class="name" name="review" rows="8" cols="30" id="review"></textarea>
+<br>
+<label for="submit"> </label>
+    <div>
+       <input class="sat" type="submit" name="submit" id="submit" value="submit now"  >
+       <input class="sat" type="reset" name="" value="reset">
+    </div>
+    <br>
+    </div>
+</div>
+
+</form>
+</html>
